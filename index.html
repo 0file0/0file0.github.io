@@ -46,7 +46,7 @@ pr += 1;
 add(pr,del)
 if (pr==100){
 clearInterval(window.thisis);
-document.getElementById("prgrb").innerHTML="File downloaded! Get it here:<a href = ${url}>⬇️</a>";
+document.getElementById("prgrb").innerHTML="File downloaded! Get it here:<a href = "+url+">⬇️</a>";
 }
 window.thisis = setInterval(()=>{
 pr += 1;
